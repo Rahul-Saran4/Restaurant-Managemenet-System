@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contactstyles.css">
+    <title>Contact Us - Restaurant Name</title>
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+    <main>
+        <section class="contact-info">
+            <h2>Contact Information</h2>
+            <p>Burger Ville</p>
+            <p>Vannarpettai</p>
+            <p>Tirunelveli,Tamil Nadu,627003</p>
+            <p>Phone: +91 9282846465</p>
+            <p>Email: burgerville@gmail.com</p>
+        </section>
+        <section class="contact-form">
+            <h2>Contact Form</h2>
+            <form action="contactsubmit.jsp" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        &copy; Burger Ville
+    </footer>
+</body>
+</html>
